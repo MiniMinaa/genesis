@@ -1,0 +1,28 @@
+.footer-container {
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    .left {
+        display: flex;
+        align-items: center;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
+
+.external-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.external-links img {
+    display: flex;
+}

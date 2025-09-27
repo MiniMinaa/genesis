@@ -1,0 +1,44 @@
+@use '_header';
+@use '_footer';
+
+$logo-width: 15px;
+$logo-height: 15px;
+$text-color: black;
+
+body {
+    margin: 0px 150px 0px 150px;
+    font-family: "Mulish", sans-serif;
+}
+
+.logo-img {
+    width: 90px;
+    height: 19px;
+}
+
+.dribbble-logo {
+    width: $logo-width;
+    height: $logo-height;
+}
+
+.instagram-logo {
+    width: $logo-width;
+    height: $logo-height;
+}
+
+.twitter-logo {
+    width: $logo-width;
+    height: $logo-height;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navigation a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: $text-color;
+}
