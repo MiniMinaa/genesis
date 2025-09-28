@@ -1,11 +1,13 @@
 @use '_header';
 @use '_footer';
+@use '_project';
+@use '_contact';
 
 $logo-width: 15px;
 $logo-height: 15px;
 $text-color: black;
 
-body {
+.body-container {
     margin: 0px 150px 0px 150px;
     font-family: "Mulish", sans-serif;
 }
@@ -121,4 +123,28 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     color: #1111117b;
+}
+.awards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.awards-row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    div {
+        width: 20%;
+    }
+    align-items: baseline;
+    p {
+        color: #1111117b;
+    }
 }
