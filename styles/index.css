@@ -63,6 +63,76 @@
   font-family: "Mulish", sans-serif;
 }
 
+.project-top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.project-top-left p {
+  width: 500px;
+}
+
+.project-top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+}
+.project-top-right span {
+  text-align: right;
+  display: inline-block;
+  width: 270px;
+}
+.project-top-right div {
+  border-bottom: 1px solid;
+  border-color: black;
+}
+
+.project-middle img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.project-middle p {
+  width: 1109px;
+}
+
+.row-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.body-container {
+  margin: 0px 150px 0px 150px;
+  font-family: "Mulish", sans-serif;
+}
+
 .logo-img {
   width: 90px;
   height: 19px;
@@ -115,9 +185,16 @@
 .section-1 p {
   color: rgba(17, 17, 17, 0.4823529412);
 }
+.section-1 h4 {
+  color: #4A4FF2;
+}
+
+.highlight {
+  color: #4A4FF2;
+}
 
 .big-text {
-  width: 60%;
+  width: 500px;
 }
 
 .parent {
@@ -1683,9 +1760,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .service-container h2 {
-  width: 50%;
   width: 500px;
 }
 
@@ -1738,5 +1815,9 @@
   width: 20%;
 }
 .awards-row p {
+  color: rgba(17, 17, 17, 0.4823529412);
+}
+
+hr {
   color: rgba(17, 17, 17, 0.4823529412);
 }

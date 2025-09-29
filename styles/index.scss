@@ -52,9 +52,15 @@ $text-color: black;
     p {
     color: #1111117b; 
     }
+    h4 {
+        color: #4A4FF2;
+    }
+}
+.highlight {
+    color: #4A4FF2;
 }
 .big-text {
-    width: 60%;
+    width: 500px;
 }
 .parent {
     display: grid;
@@ -112,8 +118,8 @@ $text-color: black;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    h2 {
-        width: 50%;
+    margin-bottom: 50px;
+    h2 {   
         width: 500px;
     }
 }
@@ -147,4 +153,7 @@ $text-color: black;
     p {
         color: #1111117b;
     }
+}
+hr {
+    color: #1111117b;
 }

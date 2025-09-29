@@ -1,0 +1,47 @@
+.body-container {
+    margin: 0px 150px 0px 150px;
+    font-family: "Mulish", sans-serif;
+}
+.project-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+.project-top-left {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    p {
+        width: 500px;
+    }
+}
+.project-top-right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    span {
+        text-align: right;
+        display: inline-block;
+        width: 270px;
+    }
+    div {
+        border-bottom: 1px solid;
+        border-color: black;
+    }
+    
+}
+.project-middle {
+    img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    p {
+        width: 1109px;
+    }
+}
+.row-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
