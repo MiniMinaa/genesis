@@ -1,0 +1,39 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contact-left {
+    h1 {
+      width: 350px;  
+    }
+    p {
+        width: 445px;
+    }
+    
+}
+.custom-form {
+    width: 300px;
+    color: #1111117e;
+}
+.custom-form label {
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+.custom-form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1111117e;
+}
+.btn {
+    background-color: #4A4FF2;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100px; 
+}
