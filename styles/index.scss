@@ -49,11 +49,17 @@ $text-color: black;
     justify-content: space-between;
     align-items: last baseline;
     margin-bottom: 60px;
+    hr {
+        width: 20px;
+        margin: 0 0 5px 0;
+    }
     p {
-    color: #1111117b; 
+    color: #1111117b;
+    font-style: italic;
+     
     }
     h4 {
-        color: #4A4FF2;
+    color: #4A4FF2;
     }
 }
 .highlight {
@@ -127,7 +133,6 @@ $text-color: black;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
     color: #1111117b;
 }
 .awards-container {

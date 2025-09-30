@@ -80,7 +80,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 10px;
 }
 .project-top-left p {
   width: 500px;
@@ -96,14 +95,31 @@
           flex-direction: column;
   width: 400px;
 }
-.project-top-right span {
-  text-align: right;
-  display: inline-block;
-  width: 270px;
-}
 .project-top-right div {
-  border-bottom: 1px solid;
-  border-color: black;
+  border-bottom: 1px solid rgba(121, 118, 118, 0.0901960784);
+  border-width: 3px;
+}
+
+.p-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  color: rgba(121, 118, 118, 0.5137254902);
+}
+
+.p-row-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  color: rgba(11, 10, 10, 0.9098039216);
 }
 
 .project-middle img {
@@ -229,8 +245,13 @@
           align-items: last baseline;
   margin-bottom: 60px;
 }
+.section-1 hr {
+  width: 20px;
+  margin: 0 0 5px 0;
+}
 .section-1 p {
   color: rgba(17, 17, 17, 0.4823529412);
+  font-style: italic;
 }
 .section-1 h4 {
   color: #4A4FF2;
@@ -1817,9 +1838,8 @@
   list-style: none;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
   color: rgba(17, 17, 17, 0.4823529412);
 }
 

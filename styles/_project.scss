@@ -9,8 +9,6 @@
 .project-top-left {
     display: flex;
     flex-direction: column;
-    
-    gap: 10px;
     p {
         width: 500px;
     }
@@ -19,16 +17,22 @@
     display: flex;
     flex-direction: column;
     width: 400px;
-    span {
-        text-align: right;
-        display: inline-block;
-        width: 270px;
-    }
     div {
-        border-bottom: 1px solid;
-        border-color: black;
+        border-bottom: 1px solid#79767617;
+        border-width: 3px;  
     }
-    
+}
+.p-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #79767683;
+}   
+.p-row-right {
+     display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #0b0a0ae8;
 }
 .project-middle {
     img {
